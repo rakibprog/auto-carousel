@@ -1,4 +1,81 @@
+
 .csspro-slide {
+    width: 320px;
+    max-width: 400px;
+    background-color: #fff;
     border-radius: 10px;
-    background: #FFF;
+    border: 1px solid #eee;
+    padding: 25px;
+    position: relative;
 }
+
+.csspro-name-content {
+    margin-left:20px;
+}
+
+.csspro-thumb-wrapper {
+    display: flex;
+    align-items: center;
+}
+.sc-slide {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+.csspro-rating-wrapper {
+    display: flex;
+}
+
+.csspro-rating-wrapper li {
+    list-style: none !important;
+    padding: 4px;
+}
+
+.csspro-name {
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    color:#0d1216;
+}
+
+.csspro-title {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    font-style: normal;
+    color:#1a1a1a;
+    margin: 0px;
+    padding-top: 15px;
+}
+
+
+.csspro-desc {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    line-height: 26px;
+    font-style: normal;
+    text-align: justify;
+    color:#0d1216;
+}
+
+.csspro-rating-wrapper li i {
+    color:#1a1a1a;
+    font-size: 18px;
+}
+
+.csspor-quote {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: -8px;
+    z-index: 9999;
+    
+} 
+
+
+
+
+
